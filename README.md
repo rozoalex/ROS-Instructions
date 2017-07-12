@@ -30,4 +30,6 @@ Consult your TA, professor and online community often, don't get stuck. The proc
   4. `roslaunch turtlebot_rviz_launchers view_navigation.launch` 
   5. `roslaunch turtlebot_gazebo gmapping_demo.launch` 
   6. `roslaunch turtlebot_gazebo amcl_demo.launch` Enable automatic navigation.
+  7. `rosrun map_server map_saver` Save the map. map.pgm and map.yaml will be saved to disk. map.pgm can be viewed by a standard image viewer. 
+     `rosrun map_server map_server map.yaml` to reuse a safed map.
 
