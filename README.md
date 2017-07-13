@@ -33,4 +33,24 @@ Consult your TA, professor and online community often, don't get stuck. The proc
   7. `rosrun map_server map_saver` Save the map. map.pgm and map.yaml will be saved to disk. map.pgm can be viewed by a standard image viewer. 
      
      `rosrun map_server map_server map.yaml` to reuse a safed map.
+     
+-----
+## Robotics Terms Dictionary 
+
+* Arduino
+* Raspberry pi
+* Mbot
+-----
+* ROS
+  It stands for Robot Operating System. http://www.ros.org/
+* Turtlebot
+* SLAM
+* catkin
+* Message - msg
+* Topic 
+* Publish
+* Subscribe
+* roscore
+* roslaunch
+
 
