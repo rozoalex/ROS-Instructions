@@ -35,7 +35,7 @@ Consult your TA, professor and online community often, don't get stuck. The proc
      `rosrun map_server map_server map.yaml` to reuse a safed map.
      
 -----
-## Robotics Terms Dictionary 
+## Robotics Keyword Dictionary 
 
 * Arduino
 * Raspberry pi
@@ -49,9 +49,7 @@ Consult your TA, professor and online community often, don't get stuck. The proc
 * amcl
   AMCL stands for Adaptive Monte Carlo Localization. `amcl` is a probabilistic localization system for a robot moving in 2D. It implements the adaptive (or KLD-sampling) Monte Carlo localization approach (as described by Dieter Fox), which uses a particle filter to track the pose of a robot against a known map. 
   - amcl package document: http://wiki.ros.org/amcl
-  - What is it AMCL: https://youtu.be/htE5cClSy4Y
-  
-                     https://en.wikipedia.org/wiki/Monte_Carlo_localization
+  - What is it AMCL: https://youtu.be/htE5cClSy4Y   https://en.wikipedia.org/wiki/Monte_Carlo_localization
 * Message - msg
 * Topic 
 * Publish
