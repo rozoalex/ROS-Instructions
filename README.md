@@ -45,7 +45,7 @@ Consult your TA, professor and online community often, don't get stuck. The proc
 
   It stands for Robot Operating System. http://www.ros.org/
 * Turtlebot
-* SLAM
+* SLAMA* search algorithm
 * amcl
   AMCL stands for Adaptive Monte Carlo Localization. `amcl` is a probabilistic localization system for a robot moving in 2D. It implements the adaptive (or KLD-sampling) Monte Carlo localization approach (as described by Dieter Fox), which uses a particle filter to track the pose of a robot against a known map. 
   - amcl package document: http://wiki.ros.org/amcl
@@ -62,12 +62,12 @@ Consult your TA, professor and online community often, don't get stuck. The proc
 * Map & Nav
   * Pathfinding algorithm: [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
   
-    [Source Code](https://github.com/ros-planning/navigation/blob/kinetic-devel/navfn/src/navfn.cpp)
-    [Discussion](http://answers.ros.org/question/28366/why-navfn-is-using-dijkstra/)
+    [Source Code](https://github.com/ros-planning/navigation/blob/kinetic-devel/navfn/src/navfn.cpp), 
+    [Discussion](http://answers.ros.org/question/28366/why-navfn-is-using-dijkstra/), 
     https://youtu.be/KNXfSOx4eEE
-  * Publishing to /move_base_simple/goal
+  * Sending Goals to the Navigation Stack
 
-    http://answers.ros.org/question/47973/publishing-to-move_base_simplegoal/
+    http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals
   * Simulating the ROS Navigation Stack (part 3)
 
     http://moorerobots.com/blog/post/3
