@@ -62,6 +62,7 @@ Consult your TA, professor and online community often, don't get stuck. The proc
 * Map & Nav
   * Pathfinding algorithm: [A* search algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
   
+    [Source Code](https://github.com/ros-planning/navigation/blob/kinetic-devel/navfn/src/navfn.cpp)
     [Discussion](http://answers.ros.org/question/28366/why-navfn-is-using-dijkstra/)
     https://youtu.be/KNXfSOx4eEE
   * Publishing to /move_base_simple/goal
