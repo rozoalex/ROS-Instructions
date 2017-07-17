@@ -57,4 +57,13 @@ Consult your TA, professor and online community often, don't get stuck. The proc
 * roscore
 * roslaunch
 
+-----
+## Resource
+* Map & Nav
+  * Publishing to /move_base_simple/goal
+
+  http://answers.ros.org/question/47973/publishing-to-move_base_simplegoal/
+  * Simulating the ROS Navigation Stack (part 3)
+
+  http://moorerobots.com/blog/post/3
 
