@@ -19,7 +19,7 @@ Consult your TA, professor and online community often, don't get stuck. The proc
 ** WARNING: The Macbook pro 2016 or newer (the one with touchbar) seems not supporting ubuntu for now.**
 ## Setup your workspace and packages
 
-* `echo "source /opt/ros/(YOUR VERSION OF ROS, e.g. indigo)/setup.bash" >> ~/.bashrc` and `echo "source ~/(YOUR WORK SPACE)/devel/setup.bash" >> ~/.bashrc` in your terminal, otherwise you have to source your setup file every time you open a new terminal. [See Discussions here.] (http://answers.ros.org/question/117801/how-to-get-the-line-source-develsetupbash-to-run-after-every-time-you-catkin_make/)
+* `echo "source /opt/ros/(YOUR VERSION OF ROS, e.g. indigo)/setup.bash" >> ~/.bashrc` and `echo "source ~/(YOUR WORK SPACE)/devel/setup.bash" >> ~/.bashrc` in your terminal, otherwise you have to source your setup file every time you open a new terminal. [See Discussions here.](http://answers.ros.org/question/117801/how-to-get-the-line-source-develsetupbash-to-run-after-every-time-you-catkin_make/)
 
 ## Join the community 
 * Sign up an account and start asking question on [ROS answers](http://answers.ros.org/questions/). The community, instead of any perticular person, always knows the answer. You will find it super useful. 
