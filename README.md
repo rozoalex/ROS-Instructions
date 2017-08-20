@@ -31,11 +31,13 @@ A ROS system is made up of many different programs running simultaneously. Each 
 
 A natural question to ask is: How do I know what topics are there? It's nice and easy, just use command `rostopic list`.
 This will list all the topics that are currently existing in the system. What I mean by that is there are countless topic, but each time in your system there are only few nodes posting messages on some topics. I just need to care about ones that are currently existing.
+
 ![alt text](https://lh3.googleusercontent.com/adNhU01gzIbw1SkG_S2Lik-SOfWQqnp28LDz7M-N4OIj7OwXPNZLnOo-5TRztrrvDvaARiXKIyyZL91YSMGL2YwCFqOVqWq9GAJvL43ZuhsdRVe2qkxfk5mhXUi-qgKKdQDEp3Ov2MjKKMuZOz80PvQuVdWuqUy3ECVqYh-_UtTSnaKUB-FCxRT7IorxCKQEgJVcW3RSSP3tVvMaEe2Vf_ngPURRgfOJ-k1LB0qrhRTaN_RX68ecMY8u0hF1DslnXAarY_vK5Mw6XEp9SuZdNave3aIAlAPPOadcjNjmE2oSlCzyrhSMjlrL9T5kc9a2eLpYHS1QsKQ8NuFoiaj9vGLEqJQkGW2AgDcexpC3fjr4o3Icxc6_r9f9EJo8PhFGGiv7dZHLzteFHBN0uBteOGSGgg4F9y0VCjrJW0H1NnXj5Qz_W-ww74jQatuNWSookhMDgCx2S9ec_FFC4nT8hBIqC9gQ_p_yt7-Ewqu43FfwEimvEV9ZssjdUkAGvZqpjcKAJkNWp3UweYeyI_wNhto00J6qduxf7cOxEY6HKgvZp97hFpPqUMHCPTsoZvda8ugKX2yGNrgv-NhkxMCMKdtLmPMgylpJSjIm4yu4Pmi0z8LWLaca8PWOMyX0XmPIq5TIbCeQmPk4PwBprmr39MfckIATEq9Ozuo0c0qYwc7Y9oU=w492-h408-no "When you make rostopic list command in terminal")
 
 ROS gives a very convinient way of working with topics. 
 
 `rostopic info /odom` to view the odom topic.
+
 ![alt text](https://lh3.googleusercontent.com/4CH4PVYwG-zIGZUmZwsf2J-M5QoQTcqlWoxJdcbIIlmZoes3LVN1BnBMU1F6WqMjDv6j4XKdk5G4cqbFikEGEjqzfbcPViDKzcxEuZx3wM2WYg5UNqBCBoJsKb4CglAqKG6JL2-Fk5PZqs8kdR5VQg2lqZDEWs7z8vQhw-2-D830WRPBz_XPqOLlniO_xpv73drSpuRoLDdpdJITumuiAa1AfWflX25aK3CSROKisHVz5IwKm4xjsLvoeTJhXdhbvzW7fVFhdWfNlvj5C298LdUxTgx51pF_5CTDfj7-hcTuK7Amvw75d6F0FoPZV-ZvzIALs7hsXN-dp7DMHQVZlQkiuIofkFctiVP2MYaZutehF-Z1T4alR8d-v8OQiqEAyshbuZBOQKzRpGdjGhAWasBgQ9cgZDWNzAAMjDOTcS8x4dJ8igoVlyLrJmqOe6pZnHXcFWgvhkJcjmBTdLBtcGca3LmQ2LMuDi5pbsAfcB8H7cBo9yoSEbEgy3TskbYAZs7ldsTWJHZjRrjIQRmpfI6D5hKwGyT6jUQG8XV-6YWxthLdPJt9yZ-05z8dR2T65jILOUuhrg6VYRkCMBXgFRQxY1WHohfrEyZfdPH_9f-RGeRdZk2Nt7ezzYOqiazZbmZutg0vwETefEasVa7y08RtQB1SAtiJEaRlp0kSweJ1iBg=w492-h261-no "rostopic info /odom")
 
 /odom is the [odometry](https://en.wikipedia.org/wiki/Odometry) information currently in the system. As shown in the picture, the gazebo simulator is publishing odom and the android/virtual_joystick is subscribing this and the message type is [nav_msgs/Odometry](http://docs.ros.org/api/nav_msgs/html/msg/Odometry.html).
@@ -55,12 +57,11 @@ The add_two_ints() is the local proxy function. It's obtained by asking from ros
 
 The ROS system takes care of all the communication behind the scene. It's a good way to distribute the computation workload. Service calls are well suited to things that you only need to do **_occasionally_** and *that take a bounded time to complete*. For example, letting the robot navigate to a destination is not a well suited task for the service model, since you have no idea about when it can be done or if it can be done and you don't want to wait at the service call forever.   
 
-* **Actions** are designed to solve this problem. 
-
+* **Actions** are designed to solve this problem. ROS actions are the best way to implement interfaces to time-extended, goal-oriented behaviors like navigation. This will be introduced more throughfully in the future talk - Navigation in ROS. An action is defined with three part: goal, result and feedback. Each of them is some kind of data structure. Usually, actions, services and topics uses the same set of data structure for a easy communication. For actions, it's like service model, you have to have a server which is another node. The server will take a goal, react accordingly and send back a result. Also, you can set up a feedback which will be sent back to the client. (remember: feedbacks, results, and goals are all just messages, don't be confused.)
 
 ## Talk keynote 2: ROS Development — Workspace, Packages, Rosrun
 
-## Talk keynote 3: Navigation in Ros — SLAM, Localization, Navigation Stack
+## Talk keynote 3: Navigation in ROS — SLAM, Localization, Navigation Stack
 
 
 
