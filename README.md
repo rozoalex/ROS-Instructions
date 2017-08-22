@@ -143,15 +143,20 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
       1. [c++](https://github.com/rozoalex/ROS_NavigationControlPanel/blob/master/src/location_monitor.cpp)
       2. [python](https://github.com/rozoalex/ROS_NavigationControlPanel/blob/master/scripts/location_monitor_node.py)
       3. Demo
-        >[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qXnU-0Fiyxk/0.jpg "Navigation in Simulator")](https://youtu.be/qXnU-0Fiyxk)
+      
+        In gazebo simulator:
+      
+        [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qXnU-0Fiyxk/0.jpg "Navigation in Simulator")](https://youtu.be/qXnU-0Fiyxk)
 	
-	>[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/aVKmEijQYho/0.jpg "Navigation in Real World")](https://youtu.be/aVKmEijQYho)
+	In Real World:
+	
+	[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/aVKmEijQYho/0.jpg "Navigation in Real World")](https://youtu.be/aVKmEijQYho)
 	
 	In real world, there are far more problems than in a simulator. Small things could cause failed navigation and localization. 
 	
-	<img src="https://lh3.googleusercontent.com/TIJ1lCJwJabmz19poIqIJMD1_Xs3xgE74ixO6fpc5-fUD0qXAjJyfamgrgG70V5Z6ep5X-9DK6ZO1CDiaKdgZ9esO5XFtqPy59_cYNVWxoskQAvP9bHuc8qpY7CZgb6JAh2WZXJuVzDs1WYXwNiNaqEkBTkscKjMwYQEehx3GiCxOcgqqxpR9h23IFM3agAvb2nXBfr_lLGKfK0MDa31eRZO0k4VG-A_VrrmasMRDFUpCa59gN-Fo45FU0xGwwT4a-aR3sbAnSM9Yr6AVoSdveycTWpo0IHnZUCwvoh_vulIRF5VEkRnVOk0QXf8NuLJZGr3wi3UKdOsL6yyBIP1qfq3MLVlvt0K2pqTxfU69KvZnKy1mWDLcOSnpWEGZpJhg5WB-HJPpqgrcxX8eYCkMY-1QXzx7V-GquMUfHMfrnAcZVjJNL7QpTtTyDLASI7mDpys9ARYsH5Peq8-tiCFYLu5xz-a-3BVs9QoVjE7D84z_myfJD_cvLBX4_maixZqZOAf5xqEUdMePKlJYV6NXXvLi1UmKSerk85tiS-v2QnPBsIXmhXFhjK1ujurwpDBD4jFJkfn39KYjKf-5OYhFHZRTTxqZHANbe2paac5Y4OL66nlCwblFxwZ7aiByvkRnpnj7FAgOzYR0pxqbXwzMuwQhyj8iR-rNiCXkex_k9Lg61g=w282-h502-no" width="400">
+	<img src="https://lh3.googleusercontent.com/TIJ1lCJwJabmz19poIqIJMD1_Xs3xgE74ixO6fpc5-fUD0qXAjJyfamgrgG70V5Z6ep5X-9DK6ZO1CDiaKdgZ9esO5XFtqPy59_cYNVWxoskQAvP9bHuc8qpY7CZgb6JAh2WZXJuVzDs1WYXwNiNaqEkBTkscKjMwYQEehx3GiCxOcgqqxpR9h23IFM3agAvb2nXBfr_lLGKfK0MDa31eRZO0k4VG-A_VrrmasMRDFUpCa59gN-Fo45FU0xGwwT4a-aR3sbAnSM9Yr6AVoSdveycTWpo0IHnZUCwvoh_vulIRF5VEkRnVOk0QXf8NuLJZGr3wi3UKdOsL6yyBIP1qfq3MLVlvt0K2pqTxfU69KvZnKy1mWDLcOSnpWEGZpJhg5WB-HJPpqgrcxX8eYCkMY-1QXzx7V-GquMUfHMfrnAcZVjJNL7QpTtTyDLASI7mDpys9ARYsH5Peq8-tiCFYLu5xz-a-3BVs9QoVjE7D84z_myfJD_cvLBX4_maixZqZOAf5xqEUdMePKlJYV6NXXvLi1UmKSerk85tiS-v2QnPBsIXmhXFhjK1ujurwpDBD4jFJkfn39KYjKf-5OYhFHZRTTxqZHANbe2paac5Y4OL66nlCwblFxwZ7aiByvkRnpnj7FAgOzYR0pxqbXwzMuwQhyj8iR-rNiCXkex_k9Lg61g=w282-h502-no" width="300">
 	
-	<img src="https://lh3.googleusercontent.com/DaiR8sTn_T6Y2xTVpQ0galE9cYKwASaeKpMd5aKd8dfdR6eiZacNXnwZwDnp8fcqT1lePCvS0F0BtyTB_YsB3-cmayw_xg2G2oKrNGSaxMG61SHq7cGNf-RHmwzWCf60gOVOzAa2NnLZPRfwRvSqC2i3wsQHn1HVjJe4I7njleh_d1wSdBvsMS85UK0ZTM3J3ySYyMlZz_LsHwTRAi5CK8MNh_IP51kUp3Krxmzn6uqEKNVs7fa2sNf0TSlyCvdgNy-zpGJgFsEpUUgPVx0ff8MakP9_D_a98jkRGlMVRsbcfKG_2eYGkP9guIzYb3qLpao1N8oiLYegTAGARENKY-RkYEAlly7Q19xb-Q8Swx7fTj3dM5tK3STN_9i3WL0Vp8U644gwFUgUttaBwSWFyNiB9iAyYr2_-y-H3sP18YOb87aibgEoirO4A7ITt2jlHcI2JAshLKIbw8U2raZjeY_E3rKkvkb0gFM3lLgt7JLex_n2FpFo63HvdBRNYkU1Qfu1XTEMD-7_wkjtszgf_IbvRJPFH-ZIhmQ-byn2pvc9jbNjpc_D_RmgfjWTcbDJnEAU1Gjs136mUDcfZzlPdp_ZjSupcZPEKnN6sllQJ7j0DF-fYeGyDYrfNgPcxgEDQIsBnFhakZ8pI64TxsRNY33vcEeNpPIQl1swWZoqM_Vj-mg=w368-h656-no" width="400">
+	<img src="https://lh3.googleusercontent.com/DaiR8sTn_T6Y2xTVpQ0galE9cYKwASaeKpMd5aKd8dfdR6eiZacNXnwZwDnp8fcqT1lePCvS0F0BtyTB_YsB3-cmayw_xg2G2oKrNGSaxMG61SHq7cGNf-RHmwzWCf60gOVOzAa2NnLZPRfwRvSqC2i3wsQHn1HVjJe4I7njleh_d1wSdBvsMS85UK0ZTM3J3ySYyMlZz_LsHwTRAi5CK8MNh_IP51kUp3Krxmzn6uqEKNVs7fa2sNf0TSlyCvdgNy-zpGJgFsEpUUgPVx0ff8MakP9_D_a98jkRGlMVRsbcfKG_2eYGkP9guIzYb3qLpao1N8oiLYegTAGARENKY-RkYEAlly7Q19xb-Q8Swx7fTj3dM5tK3STN_9i3WL0Vp8U644gwFUgUttaBwSWFyNiB9iAyYr2_-y-H3sP18YOb87aibgEoirO4A7ITt2jlHcI2JAshLKIbw8U2raZjeY_E3rKkvkb0gFM3lLgt7JLex_n2FpFo63HvdBRNYkU1Qfu1XTEMD-7_wkjtszgf_IbvRJPFH-ZIhmQ-byn2pvc9jbNjpc_D_RmgfjWTcbDJnEAU1Gjs136mUDcfZzlPdp_ZjSupcZPEKnN6sllQJ7j0DF-fYeGyDYrfNgPcxgEDQIsBnFhakZ8pI64TxsRNY33vcEeNpPIQl1swWZoqM_Vj-mg=w368-h656-no" width="300">
   
 
 
