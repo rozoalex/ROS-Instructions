@@ -169,6 +169,10 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
 
 ## The very Basic: custom messages, publish & subscribe messages
 
+## Mobile Application
+* [Android](http://wiki.ros.org/android)
+* [rocon_app_platform](http://wiki.ros.org/rocon_app_platform)
+
 ## Mapping in Turtlebot 
 * Step by Step commands:
   1. `source /opt/ros/indigo/setup.bash`
