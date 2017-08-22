@@ -112,9 +112,47 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
   * [The AMAZING community](http://answers.ros.org/questions/)
   * GOOGLE!
 ## Talk keynote 3: Navigation in ROS — SLAM, Localization, Navigation Stack
+* **What is SLAM?**
 
+  Simultaneous localization and mapping (SLAM) is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it ([wikipedia](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)).
+  
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ml_pgbPEIz8/0.jpg "SLAM in action (record on computer screen)")](https://youtu.be/ml_pgbPEIz8)
+  
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yCTHY2m6ByE/0.jpg "SLAM in action (record with camera)")](https://youtu.be/yCTHY2m6ByE)
+  
+  Watch two videos, they are happening the same time.
+  
+  The map is save as a [pgm](https://en.wikipedia.org/wiki/Netpbm_format) image file and a [yaml](http://www.yaml.org/) configuration file. They are all human-readable and easy to understand. Open them and see what's going on. 
+  
+  **_Assignment_**: Read chapter 9 and 10. Build and save the map of *turtlebot_world* in simulator. Upload the map file you made, the yaml file and a writeup of what are they. Also List all the commands you used and tell what they do. 
 
+  In ROS, the robot uses amcl package to localize itself in a map. 
 
+* **AMCL** stands for Adaptive Monte Carlo localization ([original paper](http://robots.stanford.edu/papers/fox.aaai99.pdf)). 
+
+  In ROS, the implementation is in a package called [amcl](http://wiki.ros.org/amcl). It basically takes all your sensor data, combines them, and tries to predict where the robot is in the map. The amcl package computes a set of [poses](http://docs.ros.org/api/geometry_msgs/html/msg/Pose.html) associated with possiblity, the one with highest possiblity with be published. 
+  
+* **Navigation Stack**
+
+  Navigation is usually not an easy task. The one of the reason ROS is so powerful is that the navigation functionality is came in out-of-box. In ROS, you can simply send a goal to the navigation stack(this's an **_action_**). It will plan the path and navigate the robot for you. You can do it use API or Human interface to send this goal. 
+  * Navigation with RVIZ 
+    [![IMAGE ALT TEXT HERE](https://img.youtube.com/adfaadyCTHY2m6ByE/0.jpg "TODO TODO TODO TODO")](https://youtu.be/)
+  * Navigation with API
+    * [Sending Goals to the Navigation Stack](http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals)
+    * Sample Code:
+      1. [c++](https://github.com/rozoalex/ROS_NavigationControlPanel/blob/master/src/location_monitor.cpp)
+      2. [python](https://github.com/rozoalex/ROS_NavigationControlPanel/blob/master/scripts/location_monitor_node.py)
+      3. Demo
+        >[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qXnU-0Fiyxk/0.jpg "Navigation in Simulator")](https://youtu.be/qXnU-0Fiyxk)
+	
+	>[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/aVKmEijQYho/0.jpg "Navigation in Real World")](https://youtu.be/aVKmEijQYho)
+	
+	In real world, there are far more problems than in a simulator. Small things could cause failed navigation and localization. 
+	
+	<img src="https://lh3.googleusercontent.com/TIJ1lCJwJabmz19poIqIJMD1_Xs3xgE74ixO6fpc5-fUD0qXAjJyfamgrgG70V5Z6ep5X-9DK6ZO1CDiaKdgZ9esO5XFtqPy59_cYNVWxoskQAvP9bHuc8qpY7CZgb6JAh2WZXJuVzDs1WYXwNiNaqEkBTkscKjMwYQEehx3GiCxOcgqqxpR9h23IFM3agAvb2nXBfr_lLGKfK0MDa31eRZO0k4VG-A_VrrmasMRDFUpCa59gN-Fo45FU0xGwwT4a-aR3sbAnSM9Yr6AVoSdveycTWpo0IHnZUCwvoh_vulIRF5VEkRnVOk0QXf8NuLJZGr3wi3UKdOsL6yyBIP1qfq3MLVlvt0K2pqTxfU69KvZnKy1mWDLcOSnpWEGZpJhg5WB-HJPpqgrcxX8eYCkMY-1QXzx7V-GquMUfHMfrnAcZVjJNL7QpTtTyDLASI7mDpys9ARYsH5Peq8-tiCFYLu5xz-a-3BVs9QoVjE7D84z_myfJD_cvLBX4_maixZqZOAf5xqEUdMePKlJYV6NXXvLi1UmKSerk85tiS-v2QnPBsIXmhXFhjK1ujurwpDBD4jFJkfn39KYjKf-5OYhFHZRTTxqZHANbe2paac5Y4OL66nlCwblFxwZ7aiByvkRnpnj7FAgOzYR0pxqbXwzMuwQhyj8iR-rNiCXkex_k9Lg61g=w282-h502-no" width="400">
+	
+	<img src="https://lh3.googleusercontent.com/DaiR8sTn_T6Y2xTVpQ0galE9cYKwASaeKpMd5aKd8dfdR6eiZacNXnwZwDnp8fcqT1lePCvS0F0BtyTB_YsB3-cmayw_xg2G2oKrNGSaxMG61SHq7cGNf-RHmwzWCf60gOVOzAa2NnLZPRfwRvSqC2i3wsQHn1HVjJe4I7njleh_d1wSdBvsMS85UK0ZTM3J3ySYyMlZz_LsHwTRAi5CK8MNh_IP51kUp3Krxmzn6uqEKNVs7fa2sNf0TSlyCvdgNy-zpGJgFsEpUUgPVx0ff8MakP9_D_a98jkRGlMVRsbcfKG_2eYGkP9guIzYb3qLpao1N8oiLYegTAGARENKY-RkYEAlly7Q19xb-Q8Swx7fTj3dM5tK3STN_9i3WL0Vp8U644gwFUgUttaBwSWFyNiB9iAyYr2_-y-H3sP18YOb87aibgEoirO4A7ITt2jlHcI2JAshLKIbw8U2raZjeY_E3rKkvkb0gFM3lLgt7JLex_n2FpFo63HvdBRNYkU1Qfu1XTEMD-7_wkjtszgf_IbvRJPFH-ZIhmQ-byn2pvc9jbNjpc_D_RmgfjWTcbDJnEAU1Gjs136mUDcfZzlPdp_ZjSupcZPEKnN6sllQJ7j0DF-fYeGyDYrfNgPcxgEDQIsBnFhakZ8pI64TxsRNY33vcEeNpPIQl1swWZoqM_Vj-mg=w368-h656-no" width="400">
+  
 
 
 
