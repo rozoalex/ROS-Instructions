@@ -170,8 +170,8 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
     * `$ source ~/catkin_ws/devel/setup.bash`, if haven't done so. This command will enable your system to know the it can run stuffs in your workspace. You can also add this line to your bashrc file of your terminal, so that you don't need to type that every time. 
     * `$ roslaunch turtlebot_gazebo turtlebot_world.launch` Bring up your (simulated)robot first. 
     * `$ roslaunch turtlebot_teleop keyboard_teleop.launch` Open the controller for turtlebot. Select the window to use the controller. 
-    * `$ rosrun scan_monitor scan_subscriber.py` run it! You can call this anywhere. You will see a stream of printing on your console. 
-    * Now you can play with your code. Anytime you changed something, you just need to **save** and call **rosrun**. 
+    * `$ rosrun scan_monitor scan_subscriber.py` run it! You can call this anywhere. You will see a stream of printing on your console. 
+    * Now you can play with your code. Anytime you changed something, you just need to **save** and call **rosrun**. 
 
 
 
