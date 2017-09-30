@@ -34,12 +34,17 @@ This message is called *Point*. It represents a point in a coordinate system. It
   A natural question to ask is: How do I know what topics are there? It's nice and easy, just use command `rostopic list`.
 This will list all the topics that are currently existing in the system. What I mean by that is there are countless topic, but each time in your system there are only few nodes posting messages on some topics. I just need to care about ones that are currently existing.
 
+<<<<<<< HEAD
   ![alt text](https://lh3.googleusercontent.com/adNhU01gzIbw1SkG_S2Lik-SOfWQqnp28LDz7M-N4OIj7OwXPNZLnOo-5TRztrrvDvaARiXKIyyZL91YSMGL2YwCFqOVqWq9GAJvL43ZuhsdRVe2qkxfk5mhXUi-qgKKdQDEp3Ov2MjKKMuZOz80PvQuVdWuqUy3ECVqYh-_UtTSnaKUB-FCxRT7IorxCKQEgJVcW3RSSP3tVvMaEe2Vf_ngPURRgfOJ-k1LB0qrhRTaN_RX68ecMY8u0hF1DslnXAarY_vK5Mw6XEp9SuZdNave3aIAlAPPOadcjNjmE2oSlCzyrhSMjlrL9T5kc9a2eLpYHS1QsKQ8NuFoiaj9vGLEqJQkGW2AgDcexpC3fjr4o3Icxc6_r9f9EJo8PhFGGiv7dZHLzteFHBN0uBteOGSGgg4F9y0VCjrJW0H1NnXj5Qz_W-ww74jQatuNWSookhMDgCx2S9ec_FFC4nT8hBIqC9gQ_p_yt7-Ewqu43FfwEimvEV9ZssjdUkAGvZqpjcKAJkNWp3UweYeyI_wNhto00J6qduxf7cOxEY6HKgvZp97hFpPqUMHCPTsoZvda8ugKX2yGNrgv-NhkxMCMKdtLmPMgylpJSjIm4yu4Pmi0z8LWLaca8PWOMyX0XmPIq5TIbCeQmPk4PwBprmr39MfckIATEq9Ozuo0c0qYwc7Y9oU=w492-h408-no "When you make rostopic list command in terminal")
+=======
+  <img src= "https://lh3.googleusercontent.com/adNhU01gzIbw1SkG_S2Lik-SOfWQqnp28LDz7M-N4OIj7OwXPNZLnOo-5TRztrrvDvaARiXKIyyZL91YSMGL2YwCFqOVqWq9GAJvL43ZuhsdRVe2qkxfk5mhXUi-qgKKdQDEp3Ov2MjKKMuZOz80PvQuVdWuqUy3ECVqYh-_UtTSnaKUB-FCxRT7IorxCKQEgJVcW3RSSP3tVvMaEe2Vf_ngPURRgfOJ-k1LB0qrhRTaN_RX68ecMY8u0hF1DslnXAarY_vK5Mw6XEp9SuZdNave3aIAlAPPOadcjNjmE2oSlCzyrhSMjlrL9T5kc9a2eLpYHS1QsKQ8NuFoiaj9vGLEqJQkGW2AgDcexpC3fjr4o3Icxc6_r9f9EJo8PhFGGiv7dZHLzteFHBN0uBteOGSGgg4F9y0VCjrJW0H1NnXj5Qz_W-ww74jQatuNWSookhMDgCx2S9ec_FFC4nT8hBIqC9gQ_p_yt7-Ewqu43FfwEimvEV9ZssjdUkAGvZqpjcKAJkNWp3UweYeyI_wNhto00J6qduxf7cOxEY6HKgvZp97hFpPqUMHCPTsoZvda8ugKX2yGNrgv-NhkxMCMKdtLmPMgylpJSjIm4yu4Pmi0z8LWLaca8PWOMyX0XmPIq5TIbCeQmPk4PwBprmr39MfckIATEq9Ozuo0c0qYwc7Y9oU=w492-h408-no" width="300">
+>>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
 
   ROS gives a very convinient way of working with topics. 
 
   `rostopic info /odom` to view the odom topic.
 
+<<<<<<< HEAD
   ![alt text](https://lh3.googleusercontent.com/4CH4PVYwG-zIGZUmZwsf2J-M5QoQTcqlWoxJdcbIIlmZoes3LVN1BnBMU1F6WqMjDv6j4XKdk5G4cqbFikEGEjqzfbcPViDKzcxEuZx3wM2WYg5UNqBCBoJsKb4CglAqKG6JL2-Fk5PZqs8kdR5VQg2lqZDEWs7z8vQhw-2-D830WRPBz_XPqOLlniO_xpv73drSpuRoLDdpdJITumuiAa1AfWflX25aK3CSROKisHVz5IwKm4xjsLvoeTJhXdhbvzW7fVFhdWfNlvj5C298LdUxTgx51pF_5CTDfj7-hcTuK7Amvw75d6F0FoPZV-ZvzIALs7hsXN-dp7DMHQVZlQkiuIofkFctiVP2MYaZutehF-Z1T4alR8d-v8OQiqEAyshbuZBOQKzRpGdjGhAWasBgQ9cgZDWNzAAMjDOTcS8x4dJ8igoVlyLrJmqOe6pZnHXcFWgvhkJcjmBTdLBtcGca3LmQ2LMuDi5pbsAfcB8H7cBo9yoSEbEgy3TskbYAZs7ldsTWJHZjRrjIQRmpfI6D5hKwGyT6jUQG8XV-6YWxthLdPJt9yZ-05z8dR2T65jILOUuhrg6VYRkCMBXgFRQxY1WHohfrEyZfdPH_9f-RGeRdZk2Nt7ezzYOqiazZbmZutg0vwETefEasVa7y08RtQB1SAtiJEaRlp0kSweJ1iBg=w492-h261-no "rostopic info /odom")
 
   /odom is the [odometry](https://en.wikipedia.org/wiki/Odometry) information currently in the system. As shown in the picture, the gazebo simulator is publishing odom and the android/virtual_joystick is subscribing this and the message type is [nav_msgs/Odometry](http://docs.ros.org/api/nav_msgs/html/msg/Odometry.html).
@@ -48,6 +53,16 @@ This will list all the topics that are currently existing in the system. What I 
 
   ![alt text](https://lh3.googleusercontent.com/_biKmwBO1bWtwGB_vTl7STekL0ftmPqocErWEWT83g4Ko8sRBa2vg4TF8v8PlzwzLnCLH7NtGySDb3NQfRflfzG8TfvHyJ2IuCBPwK1gR3esW-ZTrvELe-Dx86QO8Sw7n-mDN2rsa6b_L-iz5jXwPgAyYei2crFno-uUOpPoOZzlznfV9zNMkeLZnvM4iTl4rOU5-4HCA27K3wdUNjKB1idQAZdpIaDQg3OeWqmN6MkjS85i3q_4o30V2bWrrXqvipsYC_Jot2NSD_VWv8QOeSAjTBDG4cnWgFI3ds4qvbybbUKwnheto5i7xHSjKixN0t-zgGCcKu6JeNC-jsXzlo3pVu4b-Ea4sh285K5DxrlnBsqZ_uTK2BtKpc5zEVeX3f0zbbinqURt-ku24yZLApJzphsQFbldiRgaGiQHMhwPKdyHpgKS0U7i75ABT9e3pu2EcMla_JynDjb6teGcngq23q9vlx1aE4RIp5VtDsdP3wbRy9v_T4GLGZlWcZq2HEE5A2P1d9GwEs29d-TgIl1TVwjISmOFA0fXjLinLBeOesaZrNabFB6fQ1GYFjAaTqmPyVm-K33lqlK1y_aUgPyjSUE54BVcLTzCexlYTlie30vjYRYYd073IMGkZ-8tuUS48zLJOCcSrJ-t55-iQSvf3XO-62npb3h2730At_Pwibg=w730-h738-no "/odom data in real time")
 
+=======
+  <img src= "https://lh3.googleusercontent.com/4CH4PVYwG-zIGZUmZwsf2J-M5QoQTcqlWoxJdcbIIlmZoes3LVN1BnBMU1F6WqMjDv6j4XKdk5G4cqbFikEGEjqzfbcPViDKzcxEuZx3wM2WYg5UNqBCBoJsKb4CglAqKG6JL2-Fk5PZqs8kdR5VQg2lqZDEWs7z8vQhw-2-D830WRPBz_XPqOLlniO_xpv73drSpuRoLDdpdJITumuiAa1AfWflX25aK3CSROKisHVz5IwKm4xjsLvoeTJhXdhbvzW7fVFhdWfNlvj5C298LdUxTgx51pF_5CTDfj7-hcTuK7Amvw75d6F0FoPZV-ZvzIALs7hsXN-dp7DMHQVZlQkiuIofkFctiVP2MYaZutehF-Z1T4alR8d-v8OQiqEAyshbuZBOQKzRpGdjGhAWasBgQ9cgZDWNzAAMjDOTcS8x4dJ8igoVlyLrJmqOe6pZnHXcFWgvhkJcjmBTdLBtcGca3LmQ2LMuDi5pbsAfcB8H7cBo9yoSEbEgy3TskbYAZs7ldsTWJHZjRrjIQRmpfI6D5hKwGyT6jUQG8XV-6YWxthLdPJt9yZ-05z8dR2T65jILOUuhrg6VYRkCMBXgFRQxY1WHohfrEyZfdPH_9f-RGeRdZk2Nt7ezzYOqiazZbmZutg0vwETefEasVa7y08RtQB1SAtiJEaRlp0kSweJ1iBg=w492-h261-no" width="300">
+  
+  /odom is the [odometry](https://en.wikipedia.org/wiki/Odometry) information currently in the system. As shown in the picture, the gazebo simulator is publishing odom and the android/virtual_joystick is subscribing this and the message type is [nav_msgs/Odometry](http://docs.ros.org/api/nav_msgs/html/msg/Odometry.html).
+
+  `rostopic echo /odom` to view the data in real time.
+
+  <img src= "https://lh3.googleusercontent.com/_biKmwBO1bWtwGB_vTl7STekL0ftmPqocErWEWT83g4Ko8sRBa2vg4TF8v8PlzwzLnCLH7NtGySDb3NQfRflfzG8TfvHyJ2IuCBPwK1gR3esW-ZTrvELe-Dx86QO8Sw7n-mDN2rsa6b_L-iz5jXwPgAyYei2crFno-uUOpPoOZzlznfV9zNMkeLZnvM4iTl4rOU5-4HCA27K3wdUNjKB1idQAZdpIaDQg3OeWqmN6MkjS85i3q_4o30V2bWrrXqvipsYC_Jot2NSD_VWv8QOeSAjTBDG4cnWgFI3ds4qvbybbUKwnheto5i7xHSjKixN0t-zgGCcKu6JeNC-jsXzlo3pVu4b-Ea4sh285K5DxrlnBsqZ_uTK2BtKpc5zEVeX3f0zbbinqURt-ku24yZLApJzphsQFbldiRgaGiQHMhwPKdyHpgKS0U7i75ABT9e3pu2EcMla_JynDjb6teGcngq23q9vlx1aE4RIp5VtDsdP3wbRy9v_T4GLGZlWcZq2HEE5A2P1d9GwEs29d-TgIl1TVwjISmOFA0fXjLinLBeOesaZrNabFB6fQ1GYFjAaTqmPyVm-K33lqlK1y_aUgPyjSUE54BVcLTzCexlYTlie30vjYRYYd073IMGkZ-8tuUS48zLJOCcSrJ-t55-iQSvf3XO-62npb3h2730At_Pwibg=w730-h738-no" width="400">
+
+>>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
   keep in mind these three command, you will use them a lot.
 
 
@@ -65,6 +80,7 @@ This will list all the topics that are currently existing in the system. What I 
 
 ## Talk keynote 2: ROS Development — Workspace, Packages, Rosrun
 Coding in ROS is actually straightforward, but the non-coding part can sometimes be frustrating. First of all, you have to know the idea of **workspace** and **packages**.
+<<<<<<< HEAD
 
 * **Workspace** is in where all your ROS code lives. It's nothing but a directory(a folder, to make it even clearer). Besides the code in underlying ROS system, all code in you want to use should be in the workspace. You can have multiple workspaces, but each time there can be only one in effect. 
   
@@ -116,13 +132,173 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
 
 
 
+=======
+
+* **Workspace** is in where all your ROS code lives. It's nothing but a directory(a folder, to make it even clearer). Besides the code in underlying ROS system, all code in you want to use should be in the workspace. You can have multiple workspaces, but each time there can be only one in effect. 
+  
+  How does the system know which one and where it is? 
+  * Everytime you want to start working on your code, you have to source a setup shell script file in the workspace. So that the system knows this particular workspace and code in your packages are what you are talking about. A lot of times, the reason people run into "package not found" error is because they forgot to source the setup file in the workspace. It's a pain to type in all the commands everytime you open a terminal. To aviod that, put in the source command in the .bashrc file, so that the terminal runs this command automatically. 
+    
+    `echo "source ~/(YOUR WORK SPACE)/devel/setup.bash" >> ~/.bashrc`
+    
+    Conventionally, the workspace is named as something like `catkin_ws`. [(What's catkin?)](http://wiki.ros.org/catkin/conceptual_overview)
+    
+    <img src="https://ak8.picdn.net/shutterstock/videos/15490690/thumb/1.jpg" width="400">
+>>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
+
+    Quick exmaple of commands for create a workspace(just for saving you some time and headache):
+      1. `source /opt/ros/indigo/setup.bash` This sources system-wise ROS setup file, so that the terminal can find the commands in ROS.
+      2. `mkdir -p ~/catkin_ws/src` and `cd ~/catkin_ws/src` 
+      3. `catkin_init_workspace` This command creates a workspace directory call *catkin_ws*. (If you forgot to source, you will run in to a command-not-found error)
+      4. `cd ~/catkin_ws` 
+      5. `catkin_make` This command will build the all the code and meta-data into executables that you can run. The underlying ROS takes care of all that. If you use C++, you will have to call this every time you made some changes in your code. Since we are using python. We don't really pay a lot attention to this.
+      6. `source /catkin_ws/devel/setup.bash` Source the setup file in your package, so that the system can find it. 
+
+      ROS organizes the softwares into *packages*. All your packages will be in the src folder in your workspace. 
+
+    
+
+* **Packages** store all your code, data and metadat. 
+
+  `cd ~/catkin_ws/src` & `catkin_create_pkg (WHATEVER-NAME-YOU-LIKE) rospy`
+  
+  Simple as that, you made a ROS package. Congratultions, you can start coding!
+* **Programming Languages** 
+  
+  In theory, you can code for ROS in almost any main stream languages, but most people do it in python and c++. They will be our main focus. Due to the CMake structure, there are lots of annoying details if you are working with c++. This is **complicated**. It's strongly recommanded to watch and follow exactly this video.  
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/2Cmdu6mkxD0/0.jpg "ROS tutorial: C++ walkthrough of publisher & subscriber")](https://youtu.be/2Cmdu6mkxD0)
+* **Learn Python in ROS** 
+  After finishing following the first tutorial, now do the same to this tutorial. After that, you will find out how much your life will be easier with python. 
+
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DLVyc9hOvk8/0.jpg "ROS tutorial: C++ walkthrough of publisher & subscriber")](https://youtu.be/DLVyc9hOvk8)
+
+* **Your friends**
+
+  Remember these are your friends:
+
+  * `rostopic list`
+  * `rostopic info /(The_Topic_You_Want_To_Know_More)`
+  * `rostopic echo /(The_Topic_You_Want_To_Know_More_In_Real_Time)`
+  * `rosmsg show (The_Message_You_Want_To_Know)`
+  * [The AMAZING community](http://answers.ros.org/questions/)
+  * GOOGLE!
+  
+  
+## Talk Keynote 2.5: Recipe for Scan Subscriber
+* Before getting started, you should have a workspace ready. Suppose the workspace name is `/catkin_ws`. 
+* Recipe:
+  * Initialize a *package*
+    * `$ cd /catkin_ws/src` cd to the src of your workspace first.
+    * `$ catkin_create_pkg scan_monitor std_msgs rospy` Create a new package called *scan_monitor* that depends on *std_msgs* and *rospy*.
+  * Create your code.
+    * `$ cd /scan_monitor/src`
+    * `$ gedit scan_subscriber.py`
+    * Copy pasted the following code. 
+    ```python
+    #!/usr/bin/env python
+    # Be sure to include the shebang line!!! 
+    # You should figure out what's the shebang line for your system. 
+    import rospy #import the ros python package
+    from sensor_msgs.msg import LaserScan #You have to import the message
+    from Tkinter import *  #a Python UI library
+
+    class ScanMonitor:
+      def __init__(self, scan_topic):
+        self.scan_topic_name = scan_topic
+        
+      def scanCallback(self,msg):
+        print("Range array has "+str(len(msg.ranges))+" elements.")
+        print("Angle Increment is "+str(msg.angle_increment))
+        print(str(len(msg.ranges)*msg.angle_increment))
+        #this is going to print out 
+        #how many elements are there in the Range array of the message
+
+      def start(self):
+        root = Tk() #Bring up the UI, for now there's nothing
+        rospy.Subscriber(self.scan_topic_name,LaserScan,self.scanCallback)
+        #Every time you receive a new message, the scanCallback will be called. 
+        root.mainloop() #This just goes into an infinite loop and stops the program from exiting. 
+
+        
+    def main():
+      rospy.init_node('scan_monitor') 
+      #The first time to do is always initialize the node.
+      scan_monitor = ScanMonitor("/scan")  
+      scan_monitor.start()
+
+    if __name__ == '__main__':
+      main()
+    ```
+    * We are subscribing for the `scan` topic and we get message type `LaserScan`
+    * `rostopic list` to see all topics
+    * `rostopic show /scan` to see the detail of scan topic
+    * `rosmsg show LaserScan` to see the message(data structure). You can also see it online from [here](http://docs.ros.org/api/sensor_msgs/html/msg/LaserScan.html). For all kinds of message types, you can always just google it. You will get a well-structure wiki of this type of message. 
+    * save and quit. 
+    * `$ chmod +x scan_subscriber.py` This command will make your code executable. If you `$ ls`, you would the scan_subscriber.py is marked green. That means it became executable. Now you can `$ python scan_subscriber.py` to run it, but it's recommended to build this in the ROS environment. 
+    * `$ cd ` to go back to the home folder. `$ cd /catkin_ws/src` again. 
+    * `$ catkin_make ` to build. Remember you have to do it in the root of your workspace. 
+  * Run it!
+    * `$ source ~/catkin_ws/devel/setup.bash`, if haven't done so. This command will enable your system to know the it can run stuffs in your workspace. You can also add this line to your bashrc file of your terminal, so that you don't need to type that every time. 
+    * `$ roslaunch turtlebot_gazebo turtlebot_world.launch` Bring up your (simulated)robot first. 
+    * `$ roslaunch turtlebot_teleop keyboard_teleop.launch` Open the controller for turtlebot. Select the window to use the controller. 
+    * `$ rosrun scan_monitor scan_subscriber.py` run it! You can call this anywhere. You will see a stream of printing on your console. 
+    * Now you can play with your code. Anytime you changed something, you just need to **save** and call **rosrun**. 
 
 
 
+  
+  
+## Talk keynote 3: Navigation in ROS — SLAM, Localization, Navigation Stack
+* **What is SLAM?**
+
+  Simultaneous localization and mapping (SLAM) is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it ([wikipedia](https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping)).
+  
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ml_pgbPEIz8/0.jpg "SLAM in action (record on computer screen)")](https://youtu.be/ml_pgbPEIz8)
+  
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yCTHY2m6ByE/0.jpg "SLAM in action (record with camera)")](https://youtu.be/yCTHY2m6ByE)
+  
+  Watch two videos, they are happening the same time.
+  
+  The map is save as a [pgm](https://en.wikipedia.org/wiki/Netpbm_format) image file and a [yaml](http://www.yaml.org/) configuration file. They are all human-readable and easy to understand. Open them and see what's going on. 
+  
+  **_Assignment_**: Read chapter 9 and 10. Build and save the map of *turtlebot_world* in simulator. Upload the map file you made, the yaml file and a writeup of what are they. Also List all the commands you used and tell what they do. 
+
+  In ROS, the robot uses amcl package to localize itself in a map. 
+
+* **AMCL** stands for Adaptive Monte Carlo localization ([original paper](http://robots.stanford.edu/papers/fox.aaai99.pdf)). 
+
+  In ROS, the implementation is in a package called [amcl](http://wiki.ros.org/amcl). It basically takes all your sensor data, combines them, and tries to predict where the robot is in the map. The amcl package computes a set of [poses](http://docs.ros.org/api/geometry_msgs/html/msg/Pose.html) associated with possiblity, the one with highest possiblity with be published. 
+  
+* **Navigation Stack**
+
+  Navigation is usually not an easy task. The one of the reason ROS is so powerful is that the navigation functionality is came in out-of-box. In ROS, you can simply send a goal to the navigation stack(this's an **_action_**). It will plan the path and navigate the robot for you. You can do it use API or Human interface to send this goal. 
+  * Navigation with RVIZ 
+    [![IMAGE ALT TEXT HERE](https://lh3.googleusercontent.com/qYGFIdK52HprI-S6Frb4Lv5KRiqFbfmoCyjFI8aatVuYXz0RqucLJdBTDm23YI73hBgfxHVDPT2ebiajpuTWIZQvTMSmjXSoxsGub9KBe9gGaCBCXqdgUBHq-_79x315WqlKdybmTBJttxaElgBLfOXoGNrOU0JcI0JxZKHtcK8-LJVlmLoZMfE9vBF5thmF64J355s7IkNchyDNo9Potg1jrNW9khb3Ocriz4etQ5LkrWeZb9YQ2b8INmpRfviSUQGPoZvRsY15CvkjVWvx5bkB-dgf5kyPE0GeatY_hp6kFQHKKRnV4fd-_oaS_zWtsg6XcytJqY8fhuCtcQVc_VA8Rn_bKDO7vL-egQDHvWm7JrxLov3dDJFa2tOfOzVAOM7UTegl0C1E6lgcAdsfQ8rlb0rFwHDz7gc6207-tIJQkJ36t_BEoOFP1gi1z1FOSJZfjgXdXl9wB_2OflwWgYGXALuthwiL5wdrp6-vZFO1s6wovq203x_DaphOqQ0K_P4e1QYVeqJHPq6di-ADc6Z_M2w7a8vMtcbJHGIynXXfJF54e8oiHuWGvIN8Yoo9kYKSh30JTvX02zPiF7sxdFrV-Xi6hdEAuZ-GJ0OsEp_5v7sKAJiYEA=w2082-h1364-no "TODO TODO TODO TODO")](https://youtu.be/)
+  * Navigation with API
+    * [Sending Goals to the Navigation Stack](http://wiki.ros.org/navigation/Tutorials/SendingSimpleGoals)
+    * Sample Code:
+      1. [c++](https://github.com/rozoalex/ROS_NavigationControlPanel/blob/master/src/location_monitor.cpp)
+      2. [python](https://github.com/rozoalex/ROS_NavigationControlPanel/blob/master/scripts/location_monitor_node.py)
+      3. Demo
+      
+        In gazebo simulator:
+      
+        [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qXnU-0Fiyxk/0.jpg "Navigation in Simulator")](https://youtu.be/qXnU-0Fiyxk)
+	
+	In Real World:
+	
+	[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/aVKmEijQYho/0.jpg "Navigation in Real World")](https://youtu.be/aVKmEijQYho)
+	
+	In real world, there are far more problems than in a simulator. Small things could cause failed navigation and localization. 
+	
+	<img src="https://lh3.googleusercontent.com/TIJ1lCJwJabmz19poIqIJMD1_Xs3xgE74ixO6fpc5-fUD0qXAjJyfamgrgG70V5Z6ep5X-9DK6ZO1CDiaKdgZ9esO5XFtqPy59_cYNVWxoskQAvP9bHuc8qpY7CZgb6JAh2WZXJuVzDs1WYXwNiNaqEkBTkscKjMwYQEehx3GiCxOcgqqxpR9h23IFM3agAvb2nXBfr_lLGKfK0MDa31eRZO0k4VG-A_VrrmasMRDFUpCa59gN-Fo45FU0xGwwT4a-aR3sbAnSM9Yr6AVoSdveycTWpo0IHnZUCwvoh_vulIRF5VEkRnVOk0QXf8NuLJZGr3wi3UKdOsL6yyBIP1qfq3MLVlvt0K2pqTxfU69KvZnKy1mWDLcOSnpWEGZpJhg5WB-HJPpqgrcxX8eYCkMY-1QXzx7V-GquMUfHMfrnAcZVjJNL7QpTtTyDLASI7mDpys9ARYsH5Peq8-tiCFYLu5xz-a-3BVs9QoVjE7D84z_myfJD_cvLBX4_maixZqZOAf5xqEUdMePKlJYV6NXXvLi1UmKSerk85tiS-v2QnPBsIXmhXFhjK1ujurwpDBD4jFJkfn39KYjKf-5OYhFHZRTTxqZHANbe2paac5Y4OL66nlCwblFxwZ7aiByvkRnpnj7FAgOzYR0pxqbXwzMuwQhyj8iR-rNiCXkex_k9Lg61g=w282-h502-no" width="300">
+	
+	<img src="https://lh3.googleusercontent.com/DaiR8sTn_T6Y2xTVpQ0galE9cYKwASaeKpMd5aKd8dfdR6eiZacNXnwZwDnp8fcqT1lePCvS0F0BtyTB_YsB3-cmayw_xg2G2oKrNGSaxMG61SHq7cGNf-RHmwzWCf60gOVOzAa2NnLZPRfwRvSqC2i3wsQHn1HVjJe4I7njleh_d1wSdBvsMS85UK0ZTM3J3ySYyMlZz_LsHwTRAi5CK8MNh_IP51kUp3Krxmzn6uqEKNVs7fa2sNf0TSlyCvdgNy-zpGJgFsEpUUgPVx0ff8MakP9_D_a98jkRGlMVRsbcfKG_2eYGkP9guIzYb3qLpao1N8oiLYegTAGARENKY-RkYEAlly7Q19xb-Q8Swx7fTj3dM5tK3STN_9i3WL0Vp8U644gwFUgUttaBwSWFyNiB9iAyYr2_-y-H3sP18YOb87aibgEoirO4A7ITt2jlHcI2JAshLKIbw8U2raZjeY_E3rKkvkb0gFM3lLgt7JLex_n2FpFo63HvdBRNYkU1Qfu1XTEMD-7_wkjtszgf_IbvRJPFH-ZIhmQ-byn2pvc9jbNjpc_D_RmgfjWTcbDJnEAU1Gjs136mUDcfZzlPdp_ZjSupcZPEKnN6sllQJ7j0DF-fYeGyDYrfNgPcxgEDQIsBnFhakZ8pI64TxsRNY33vcEeNpPIQl1swWZoqM_Vj-mg=w368-h656-no" width="300">
+  
 
 
 
-
+<<<<<<< HEAD
 
 ## Talk Keynote 2.5: Recipe for Scan Subscriber
 * Before getting started, you should have a workspace ready. Suppose the workspace name is `/catkin_ws`. 
@@ -202,6 +378,8 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
 
 
 
+=======
+>>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
 
 ## Join the community 
 * Sign up an account and start asking question on [ROS answers](http://answers.ros.org/questions/). The community, instead of any perticular person, always knows the answer. You will find it super useful. 
@@ -209,6 +387,10 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
 ## Drive your simulated turtlebot around...
 
 ## The very Basic: custom messages, publish & subscribe messages
+
+## Mobile Application
+* [Android](http://wiki.ros.org/android)
+* [rocon_app_platform](http://wiki.ros.org/rocon_app_platform)
 
 ## Mapping in Turtlebot 
 * Step by Step commands:
