@@ -34,26 +34,14 @@ This message is called *Point*. It represents a point in a coordinate system. It
   A natural question to ask is: How do I know what topics are there? It's nice and easy, just use command `rostopic list`.
 This will list all the topics that are currently existing in the system. What I mean by that is there are countless topic, but each time in your system there are only few nodes posting messages on some topics. I just need to care about ones that are currently existing.
 
-<<<<<<< HEAD
-  ![alt text](https://lh3.googleusercontent.com/adNhU01gzIbw1SkG_S2Lik-SOfWQqnp28LDz7M-N4OIj7OwXPNZLnOo-5TRztrrvDvaARiXKIyyZL91YSMGL2YwCFqOVqWq9GAJvL43ZuhsdRVe2qkxfk5mhXUi-qgKKdQDEp3Ov2MjKKMuZOz80PvQuVdWuqUy3ECVqYh-_UtTSnaKUB-FCxRT7IorxCKQEgJVcW3RSSP3tVvMaEe2Vf_ngPURRgfOJ-k1LB0qrhRTaN_RX68ecMY8u0hF1DslnXAarY_vK5Mw6XEp9SuZdNave3aIAlAPPOadcjNjmE2oSlCzyrhSMjlrL9T5kc9a2eLpYHS1QsKQ8NuFoiaj9vGLEqJQkGW2AgDcexpC3fjr4o3Icxc6_r9f9EJo8PhFGGiv7dZHLzteFHBN0uBteOGSGgg4F9y0VCjrJW0H1NnXj5Qz_W-ww74jQatuNWSookhMDgCx2S9ec_FFC4nT8hBIqC9gQ_p_yt7-Ewqu43FfwEimvEV9ZssjdUkAGvZqpjcKAJkNWp3UweYeyI_wNhto00J6qduxf7cOxEY6HKgvZp97hFpPqUMHCPTsoZvda8ugKX2yGNrgv-NhkxMCMKdtLmPMgylpJSjIm4yu4Pmi0z8LWLaca8PWOMyX0XmPIq5TIbCeQmPk4PwBprmr39MfckIATEq9Ozuo0c0qYwc7Y9oU=w492-h408-no "When you make rostopic list command in terminal")
-=======
+
   <img src= "https://lh3.googleusercontent.com/adNhU01gzIbw1SkG_S2Lik-SOfWQqnp28LDz7M-N4OIj7OwXPNZLnOo-5TRztrrvDvaARiXKIyyZL91YSMGL2YwCFqOVqWq9GAJvL43ZuhsdRVe2qkxfk5mhXUi-qgKKdQDEp3Ov2MjKKMuZOz80PvQuVdWuqUy3ECVqYh-_UtTSnaKUB-FCxRT7IorxCKQEgJVcW3RSSP3tVvMaEe2Vf_ngPURRgfOJ-k1LB0qrhRTaN_RX68ecMY8u0hF1DslnXAarY_vK5Mw6XEp9SuZdNave3aIAlAPPOadcjNjmE2oSlCzyrhSMjlrL9T5kc9a2eLpYHS1QsKQ8NuFoiaj9vGLEqJQkGW2AgDcexpC3fjr4o3Icxc6_r9f9EJo8PhFGGiv7dZHLzteFHBN0uBteOGSGgg4F9y0VCjrJW0H1NnXj5Qz_W-ww74jQatuNWSookhMDgCx2S9ec_FFC4nT8hBIqC9gQ_p_yt7-Ewqu43FfwEimvEV9ZssjdUkAGvZqpjcKAJkNWp3UweYeyI_wNhto00J6qduxf7cOxEY6HKgvZp97hFpPqUMHCPTsoZvda8ugKX2yGNrgv-NhkxMCMKdtLmPMgylpJSjIm4yu4Pmi0z8LWLaca8PWOMyX0XmPIq5TIbCeQmPk4PwBprmr39MfckIATEq9Ozuo0c0qYwc7Y9oU=w492-h408-no" width="300">
->>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
 
   ROS gives a very convinient way of working with topics. 
 
   `rostopic info /odom` to view the odom topic.
 
-<<<<<<< HEAD
-  ![alt text](https://lh3.googleusercontent.com/4CH4PVYwG-zIGZUmZwsf2J-M5QoQTcqlWoxJdcbIIlmZoes3LVN1BnBMU1F6WqMjDv6j4XKdk5G4cqbFikEGEjqzfbcPViDKzcxEuZx3wM2WYg5UNqBCBoJsKb4CglAqKG6JL2-Fk5PZqs8kdR5VQg2lqZDEWs7z8vQhw-2-D830WRPBz_XPqOLlniO_xpv73drSpuRoLDdpdJITumuiAa1AfWflX25aK3CSROKisHVz5IwKm4xjsLvoeTJhXdhbvzW7fVFhdWfNlvj5C298LdUxTgx51pF_5CTDfj7-hcTuK7Amvw75d6F0FoPZV-ZvzIALs7hsXN-dp7DMHQVZlQkiuIofkFctiVP2MYaZutehF-Z1T4alR8d-v8OQiqEAyshbuZBOQKzRpGdjGhAWasBgQ9cgZDWNzAAMjDOTcS8x4dJ8igoVlyLrJmqOe6pZnHXcFWgvhkJcjmBTdLBtcGca3LmQ2LMuDi5pbsAfcB8H7cBo9yoSEbEgy3TskbYAZs7ldsTWJHZjRrjIQRmpfI6D5hKwGyT6jUQG8XV-6YWxthLdPJt9yZ-05z8dR2T65jILOUuhrg6VYRkCMBXgFRQxY1WHohfrEyZfdPH_9f-RGeRdZk2Nt7ezzYOqiazZbmZutg0vwETefEasVa7y08RtQB1SAtiJEaRlp0kSweJ1iBg=w492-h261-no "rostopic info /odom")
 
-  /odom is the [odometry](https://en.wikipedia.org/wiki/Odometry) information currently in the system. As shown in the picture, the gazebo simulator is publishing odom and the android/virtual_joystick is subscribing this and the message type is [nav_msgs/Odometry](http://docs.ros.org/api/nav_msgs/html/msg/Odometry.html).
-
-  `rostopic echo /odom` to view the data in real time.
-
-  ![alt text](https://lh3.googleusercontent.com/_biKmwBO1bWtwGB_vTl7STekL0ftmPqocErWEWT83g4Ko8sRBa2vg4TF8v8PlzwzLnCLH7NtGySDb3NQfRflfzG8TfvHyJ2IuCBPwK1gR3esW-ZTrvELe-Dx86QO8Sw7n-mDN2rsa6b_L-iz5jXwPgAyYei2crFno-uUOpPoOZzlznfV9zNMkeLZnvM4iTl4rOU5-4HCA27K3wdUNjKB1idQAZdpIaDQg3OeWqmN6MkjS85i3q_4o30V2bWrrXqvipsYC_Jot2NSD_VWv8QOeSAjTBDG4cnWgFI3ds4qvbybbUKwnheto5i7xHSjKixN0t-zgGCcKu6JeNC-jsXzlo3pVu4b-Ea4sh285K5DxrlnBsqZ_uTK2BtKpc5zEVeX3f0zbbinqURt-ku24yZLApJzphsQFbldiRgaGiQHMhwPKdyHpgKS0U7i75ABT9e3pu2EcMla_JynDjb6teGcngq23q9vlx1aE4RIp5VtDsdP3wbRy9v_T4GLGZlWcZq2HEE5A2P1d9GwEs29d-TgIl1TVwjISmOFA0fXjLinLBeOesaZrNabFB6fQ1GYFjAaTqmPyVm-K33lqlK1y_aUgPyjSUE54BVcLTzCexlYTlie30vjYRYYd073IMGkZ-8tuUS48zLJOCcSrJ-t55-iQSvf3XO-62npb3h2730At_Pwibg=w730-h738-no "/odom data in real time")
-
-=======
   <img src= "https://lh3.googleusercontent.com/4CH4PVYwG-zIGZUmZwsf2J-M5QoQTcqlWoxJdcbIIlmZoes3LVN1BnBMU1F6WqMjDv6j4XKdk5G4cqbFikEGEjqzfbcPViDKzcxEuZx3wM2WYg5UNqBCBoJsKb4CglAqKG6JL2-Fk5PZqs8kdR5VQg2lqZDEWs7z8vQhw-2-D830WRPBz_XPqOLlniO_xpv73drSpuRoLDdpdJITumuiAa1AfWflX25aK3CSROKisHVz5IwKm4xjsLvoeTJhXdhbvzW7fVFhdWfNlvj5C298LdUxTgx51pF_5CTDfj7-hcTuK7Amvw75d6F0FoPZV-ZvzIALs7hsXN-dp7DMHQVZlQkiuIofkFctiVP2MYaZutehF-Z1T4alR8d-v8OQiqEAyshbuZBOQKzRpGdjGhAWasBgQ9cgZDWNzAAMjDOTcS8x4dJ8igoVlyLrJmqOe6pZnHXcFWgvhkJcjmBTdLBtcGca3LmQ2LMuDi5pbsAfcB8H7cBo9yoSEbEgy3TskbYAZs7ldsTWJHZjRrjIQRmpfI6D5hKwGyT6jUQG8XV-6YWxthLdPJt9yZ-05z8dR2T65jILOUuhrg6VYRkCMBXgFRQxY1WHohfrEyZfdPH_9f-RGeRdZk2Nt7ezzYOqiazZbmZutg0vwETefEasVa7y08RtQB1SAtiJEaRlp0kSweJ1iBg=w492-h261-no" width="300">
   
   /odom is the [odometry](https://en.wikipedia.org/wiki/Odometry) information currently in the system. As shown in the picture, the gazebo simulator is publishing odom and the android/virtual_joystick is subscribing this and the message type is [nav_msgs/Odometry](http://docs.ros.org/api/nav_msgs/html/msg/Odometry.html).
@@ -61,8 +49,6 @@ This will list all the topics that are currently existing in the system. What I 
   `rostopic echo /odom` to view the data in real time.
 
   <img src= "https://lh3.googleusercontent.com/_biKmwBO1bWtwGB_vTl7STekL0ftmPqocErWEWT83g4Ko8sRBa2vg4TF8v8PlzwzLnCLH7NtGySDb3NQfRflfzG8TfvHyJ2IuCBPwK1gR3esW-ZTrvELe-Dx86QO8Sw7n-mDN2rsa6b_L-iz5jXwPgAyYei2crFno-uUOpPoOZzlznfV9zNMkeLZnvM4iTl4rOU5-4HCA27K3wdUNjKB1idQAZdpIaDQg3OeWqmN6MkjS85i3q_4o30V2bWrrXqvipsYC_Jot2NSD_VWv8QOeSAjTBDG4cnWgFI3ds4qvbybbUKwnheto5i7xHSjKixN0t-zgGCcKu6JeNC-jsXzlo3pVu4b-Ea4sh285K5DxrlnBsqZ_uTK2BtKpc5zEVeX3f0zbbinqURt-ku24yZLApJzphsQFbldiRgaGiQHMhwPKdyHpgKS0U7i75ABT9e3pu2EcMla_JynDjb6teGcngq23q9vlx1aE4RIp5VtDsdP3wbRy9v_T4GLGZlWcZq2HEE5A2P1d9GwEs29d-TgIl1TVwjISmOFA0fXjLinLBeOesaZrNabFB6fQ1GYFjAaTqmPyVm-K33lqlK1y_aUgPyjSUE54BVcLTzCexlYTlie30vjYRYYd073IMGkZ-8tuUS48zLJOCcSrJ-t55-iQSvf3XO-62npb3h2730At_Pwibg=w730-h738-no" width="400">
-
->>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
   keep in mind these three command, you will use them a lot.
 
 
@@ -80,7 +66,6 @@ This will list all the topics that are currently existing in the system. What I 
 
 ## Talk keynote 2: ROS Development — Workspace, Packages, Rosrun
 Coding in ROS is actually straightforward, but the non-coding part can sometimes be frustrating. First of all, you have to know the idea of **workspace** and **packages**.
-<<<<<<< HEAD
 
 * **Workspace** is in where all your ROS code lives. It's nothing but a directory(a folder, to make it even clearer). Besides the code in underlying ROS system, all code in you want to use should be in the workspace. You can have multiple workspaces, but each time there can be only one in effect. 
   
@@ -132,19 +117,7 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
 
 
 
-=======
 
-* **Workspace** is in where all your ROS code lives. It's nothing but a directory(a folder, to make it even clearer). Besides the code in underlying ROS system, all code in you want to use should be in the workspace. You can have multiple workspaces, but each time there can be only one in effect. 
-  
-  How does the system know which one and where it is? 
-  * Everytime you want to start working on your code, you have to source a setup shell script file in the workspace. So that the system knows this particular workspace and code in your packages are what you are talking about. A lot of times, the reason people run into "package not found" error is because they forgot to source the setup file in the workspace. It's a pain to type in all the commands everytime you open a terminal. To aviod that, put in the source command in the .bashrc file, so that the terminal runs this command automatically. 
-    
-    `echo "source ~/(YOUR WORK SPACE)/devel/setup.bash" >> ~/.bashrc`
-    
-    Conventionally, the workspace is named as something like `catkin_ws`. [(What's catkin?)](http://wiki.ros.org/catkin/conceptual_overview)
-    
-    <img src="https://ak8.picdn.net/shutterstock/videos/15490690/thumb/1.jpg" width="400">
->>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
 
     Quick exmaple of commands for create a workspace(just for saving you some time and headache):
       1. `source /opt/ros/indigo/setup.bash` This sources system-wise ROS setup file, so that the terminal can find the commands in ROS.
@@ -368,7 +341,19 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
 
 ## ROS-MAZE Challenge 
 * This challenge is designed for getting known of ROS and utilizing data from sensors. 
-*  
+* Implement an algorithm that will solve the maze bellow. Your code should be able to run on both the Turtlebot3 and simulators (gazebo, stdr...). 
+* The team takes the least time to solve this maze in the physical world will win.
+* This maze will built in the lab, you should test your algorithm there a lot. 
+* All walls will be built by blocks which you used in mbot maze.  
+<img src="https://raw.githubusercontent.com/rozoalex/ROS-Instructions/master/imgs/IMG_0615.jpg" width="600">
+
+* General guide:
+  * **Draw this map and test your code in STDR first**.
+  * Test well in simulator first and then deploy your code to the physical robot. 
+  * There is no guarantee that your code will automatically work in the real world, if your code works well in the simulator. But you will get a sense of if your algorithm and logic are right. 
+  * The simulated robot will behave a lot differently than the physical one. Take that into account. 
+
+
 
 
 ## Talk keynote 3: Navigation in ROS — SLAM, Localization, Navigation Stack
@@ -378,8 +363,7 @@ Coding in ROS is actually straightforward, but the non-coding part can sometimes
 
 
 
-=======
->>>>>>> 50e298d28884161e6e2b324ad9024859656bb17c
+
 
 ## Join the community 
 * Sign up an account and start asking question on [ROS answers](http://answers.ros.org/questions/). The community, instead of any perticular person, always knows the answer. You will find it super useful. 
